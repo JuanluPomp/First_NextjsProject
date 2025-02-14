@@ -13,7 +13,7 @@ export default async function HomePage() {
   return (
     <>
       <h1 className=' text-center font-bold text-3xl mt-10'>Usuarios</h1>
-      <div className=' grid grid-cols-2 lg:grid-cols-3 m-10 gap-5'>
+      <div className=' container mx-auto grid grid-cols-2 lg:grid-cols-3 m-10 gap-5'>
           {data.map(user => (
             <UsersCard
             key={user.id}
